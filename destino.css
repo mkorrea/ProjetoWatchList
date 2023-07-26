@@ -66,9 +66,10 @@ header img:hover {
 main {
     color: var(--cor2);
     max-width: 1200px;
-    background-color: ydarkturquoise;
+    background-image: linear-gradient(to right, #000a1a2d, #001a41, #000a1a2d);
     margin: auto;
-    padding: 15px;
+    padding: 30px;
+    border-radius: 15px;
 }
 
 h1 {
