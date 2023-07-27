@@ -24,7 +24,6 @@
 /*          corpo do site           */
 body {
     background-color: var(--cor1);
-
 }
 
 /*          cabeçalho           */
@@ -32,7 +31,7 @@ header img {
     padding: 15px;
     display: block;
     margin: auto;
-    width: 170px;
+    width: 190px;
 }
 header:hover {
     transition-duration: 3.0s;
@@ -43,11 +42,14 @@ header:hover {
 /*          conteudo geral principal          */
 main {
     color: var(--cor2);
+    background-image: linear-gradient(to right, #010c1d2d, #00122d, #010c1d2d);
+    max-width: 1600px;
+    margin: 0px auto 15px auto;
 }
 
 nav {
     display: block;
-    margin: 25px 0px 25px 70px;
+    margin: 25px 0px 25px 30px;
     width: 100%;  
 }
 
@@ -60,6 +62,7 @@ h1 {
     text-shadow: 2px 2px 2px rgba(169, 169, 169, 0.545);
     text-indent: 25px;
     border-radius: 10px;
+    margin-bottom: 13px;
 }
 
 nav img {
@@ -68,13 +71,19 @@ nav img {
     border-radius: 13px;
 }
 .categorias img:hover {
-    box-shadow: 4px 5px 14px 0px #416bd766;
     height: 300px;
     width: 200px;
-    transition-duration: .7s;
-    transition-delay: .2s;
+    box-shadow: 4px 5px 9px 0px #416bd72d;
+    border: 1px solid rgba(82, 137, 144, 0.201);
+    margin-top: -27px;
+    margin-right: -11px;
+    margin-bottom: -2px;
+    margin-left: -2px;
+    transition-duration: 1s;
+    transition-delay: .3s;
     transition-timing-function: ease-in-out(0.39, 0.575, 0.565, 1);
 }
+
 .categorias img:active {
     border-radius: 30%;
     transition-duration: .5s;
@@ -85,7 +94,6 @@ nav img {
 }
 
 .nome {
-    
     font-family: 'Electrolize', sans-serif;
     text-align: center;
     line-height: 1em;
@@ -107,4 +115,20 @@ div.imagem:hover > p {
 }
 
 
+
+
+footer {
+    text-align: center;
+    color: rgba(128, 128, 128, 0.22);
+    font-size: 1.2em;
+    margin: 0.8em;
+}
+footer a {
+    color: rgba(128, 128, 128, 0.353);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 /*          teste          */
