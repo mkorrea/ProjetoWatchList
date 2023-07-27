@@ -42,9 +42,11 @@ header:hover {
 /*          conteudo geral principal          */
 main {
     color: var(--cor2);
-    background-image: linear-gradient(to right, #010c1d2d, #00122d, #010c1d2d);
-    max-width: 1600px;
+    background-image: linear-gradient(to right, #010c1d2d, #000d21, #010c1d2d);
+    max-width: 1400px;
     margin: 0px auto 15px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.296);
 }
 
 nav {
@@ -120,7 +122,7 @@ div.imagem:hover > p {
 footer {
     text-align: center;
     color: rgba(128, 128, 128, 0.22);
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 0.8em;
 }
 footer a {
