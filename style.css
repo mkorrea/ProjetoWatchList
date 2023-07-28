@@ -71,15 +71,16 @@ nav img {
     height: 283px;
     width: 189px;
     border-radius: 13px;
+    
 }
 .categorias img:hover {
-    height: 300px;
-    width: 200px;
+    /* backupp */
+    transform: scale(107%);
     box-shadow: 4px 5px 9px 0px #416bd72d;
     border: 1px solid rgba(82, 137, 144, 0.201);
     margin-top: -27px;
     margin-right: -11px;
-    margin-bottom: -2px;
+    margin-bottom: 5px;
     margin-left: -2px;
     transition-duration: 1s;
     transition-delay: .3s;
@@ -107,9 +108,11 @@ nav img {
 }
 
 div.imagem:hover > p {
-    background-image: linear-gradient(to bottom, #000e24ae, transparent );
+    background-image: linear-gradient(to bottom, transparent, #000e24ae, transparent );
     color: white;
-    font-size: 1.3em;
+    transform: scale(107%);
+    margin-top: 5px;
+    padding-top: 6px;
     display: block;
     transition-duration: 1.3s;
     transition-delay: .5s;
