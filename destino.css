@@ -49,11 +49,14 @@ header img:hover {
 /*          conteudo geral principal          */
 main {
     color: var(--cor2);
-    max-width: 1200px;
-    margin: auto;
-    padding: 30px;
-    border-radius: 15px;
+    background-color: rgba(2, 0, 38, 0.068);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.296);
+    max-width: 1300px;
+    margin: 0px auto 20px auto;
+    padding-bottom: 10vh;
+    border-radius: 10px;
 }
+
 
 h1 {
     font-family: 'KoHo', sans-serif;
@@ -111,10 +114,12 @@ div.plataforma {
 .plataforma img {
     width: 50px;
     border-radius: 50%;
+    box-sizing: border-box;
 }
 .plataforma img:hover {
     box-shadow: 0px 0px 10px 0px #416bd72c;
-    transition-duration: .3s;
+    border: 1px solid white;
+    transition-duration: .6s;
 }
 
 
@@ -137,6 +142,7 @@ div#final > iframe {
     height: 100%;
     width: 100%;
     position: absolute;
+    border-radius: 8px;
 }
 
 
