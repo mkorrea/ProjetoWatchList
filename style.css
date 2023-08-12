@@ -73,7 +73,7 @@ h1 {
 }
 
 nav img {
-    height: 283px;
+    aspect-ratio: 2 / 3;
     width: 189px;
     border-radius: 13px;
     filter: brightness(0.7);
