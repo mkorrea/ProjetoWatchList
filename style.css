@@ -63,8 +63,9 @@ nav {
 article.image-scroll-container {
     overflow-x: scroll;
     overflow-y: hidden;
+    overflow-x: hidden;
     white-space: nowrap;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
     max-height: 340px;
 }
 
@@ -78,9 +79,6 @@ div.imagem-responsiva {
     width: 180%;
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-}
 
 h1 {
     font-family: 'KoHo', sans-serif;
