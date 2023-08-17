@@ -99,18 +99,18 @@ nav img {
     border-radius: 13px;
     filter: brightness(0.7);
     box-sizing: border-box;
+    transition-duration: .5s;
 }
+
 .categorias img:hover {
-    border: 1px solid rgba(82, 137, 144, 0.201);
+    border: 1px solid rgba(82, 137, 144, 0.193);
     box-shadow: 4px 5px 9px 0px #416bd72d;
     filter: brightness(1);
     transform: scale(103%);
-    
-    transition-duration: 1s;
 }
 
 .categorias img:active {
-    border-radius: 30%;
+    border-radius: 12%;
     transition-duration: .5s;
 }
 .imagem {
@@ -129,6 +129,7 @@ nav img {
     padding-top: 10px;
     height:  20px;
     color: transparent;
+    transition-duration: .6s;
 }
 
 div.imagem:hover > .nome {
@@ -136,9 +137,6 @@ div.imagem:hover > .nome {
     color: white;
     transform: scale(107%);
     top: 290px;
-    display: block;
-    transition-duration: 1.3s;
-    transition-delay: .5s;
     text-shadow: 3px 3px 3px rgba(161, 161, 161, 0.253);
 }
 
