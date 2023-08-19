@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+main {
+    width: 95%;    
+}
+
+nav {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav img {
+    width: 120px;
+}

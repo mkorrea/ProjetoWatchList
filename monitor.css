@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+main {
+    max-width: 1000px;
+}
+
+nav img {
+    width: 160px;
+}
+
