@@ -9,6 +9,10 @@ nav {
     margin-right: 10px;
 }
 
+nav > h1 {
+    font-size: 1.4em;
+}
+
 nav img {
     width: 120px;
 }
