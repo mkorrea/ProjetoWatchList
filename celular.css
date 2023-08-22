@@ -1,10 +1,26 @@
 @charset "UTF-8";
 
+#logo-ver {
+    display: block;
+}
+
+#logo-ver > img {
+    display: block;
+    padding-top: 9px;
+    margin: auto;
+    width: 90px;
+}
+
+#logo-hor {
+    display: none;
+}
+
 main {
     width: 95%;    
 }
 
 nav {
+    margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
