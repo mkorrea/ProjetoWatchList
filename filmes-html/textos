@@ -1,6 +1,30 @@
 
 <!-- PLATAFORMAS -->
-<img src="../imagens/netflix.png" alt="Netflix">    NETFLIX
+<div class="plataforma">
+    <h1>Onde assistir:</h1>                         
+
+    <div class="icone">
+        <a href="https://www.netflix.com" target="_blank"><img src="../imagens/netflix.png" alt="Netflix">
+        <div class="menuicon"> <p> Netflix </p> </div></a>
+    </div>
+</div>
+
+<div class="icone">
+    <a href="https://www.primevideo.com" target="_blank"><img src="../imagens/prime.png" alt="Prime">
+        <div class="menuicon"><p> Prime Vídeo </p></div></a>
+    </div>
+
+<div class="icone">
+    <a href="https://tv.apple.com" target="_blank"><img src="../imagens/apple.png" alt="Apple TV">
+    <div class="menuicon"><p> Apple TV </p></div></a>
+</div>
+
+<div class="icone">
+    <a href="https://www.starplus.com/pt-br/series/modern-family/6p2yzz9mh8Kp" target="_blank"><img src="../imagens/star.png" alt="StarPlus">        
+        <div class="menuicon"> <p> StarPlus </p> </div></a>
+</div>
+
+
 <img src="../imagens/prime.png" alt="Prime">        PRIME
 <img src="../imagens/disney.png" alt="Disney">      DISNEY
 <img src="../imagens/hbo.png" alt="HBO">            HBO
