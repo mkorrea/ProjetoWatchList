@@ -43,6 +43,7 @@ main {
   position: absolute;
   top: 260px;
   left: 50%;
+  height: 92vh;
   transform: translateX(-50%);
   color: var(--cor2);
   background-color: #060d17;
@@ -124,14 +125,15 @@ div.imagem > img {
 /* plataforma */
 div.plataforma {
   margin: 40px 80px;
+  display: inline-block;
 }
 .plataforma > h1 {
-  margin: 15px 0px;
+    margin: 15px 0px;
 }
 .plataforma img {
-  width: 50px;
-  border-radius: 50%;
-  box-sizing: border-box;
+    width: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
 }
 .plataforma img:hover {
   box-shadow: 0px 0px 10px 0px #416bd72c;
@@ -141,21 +143,28 @@ div.plataforma {
 
 /* video */
 
+.teste {
+    position: absolute;
+    top: 520px;
+    right: 80px;
+
+
+display: inline-block;
+}
+
 .trailer {
   text-align: center;
 }
 
-#final {
-  background-color: aqua;
-  padding-bottom: 50%;
-  position: relative;
+div#final {
+  width: 760px;
+  height: 427.5px;
 }
 
 div#final > iframe {
   aspect-ratio: 16/9;
-  width: 900px;
-  height: 60.5%;
-  position: absolute;
+  width: 760px;
+  height: 100%;
   border-radius: 8px;
 }
 
