@@ -9,14 +9,14 @@
 #logo-ver {
     display: block;
 }
+#logo-hor {
+    display: none;
+}
 header { 
     padding: 0px;
 }
 header img {
     width: 75px;
-}
-#logo-hor {
-    display: none;
 }
 
 /*  foto  */
@@ -25,13 +25,17 @@ div.capa {
     width: 100vw;
     height: 100%;
 }
-div#fundo { display: none; }
+div#fundo { 
+    display: none; 
+}
 /*  main  */
 main {
     width: 100vw;    
     top: 130px;
 }
-div.imagem { display: none; }
+div.imagem { 
+    display: none; 
+}
 
 div.titulo {
     width: 100vw;
@@ -62,27 +66,33 @@ div.duracao p {
     background-image: radial-gradient(#416bd74c, transparent);
 }
 
-div.plataforma { margin: 70px 20px; }
+div.plataforma { 
+    margin: 70px 20px; 
+}
 
-.menuicon { width: 140px; }
+.menuicon { 
+    width: 140px; 
+}
 
-.icone a:hover .menuicon { width: 150px; }
+.icone a:hover .menuicon { 
+    width: 150px; 
+}
 
-.icone p { font-size: 1em; }
+.icone p { 
+    font-size: 1em; 
+}
 
-.icone a:hover p { padding-left: 10px; }
+.icone a:hover p { 
+    padding-left: 10px; 
+}
 
 /*  video  */
 .teste {
-right: -50%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: static;
 }
 dev#final {
-    width: 100vw;
-    
+    width: 50vw;
 }
 div#final > iframe {
-    width: 100vw;
-    
+    width: 100%;
 }
