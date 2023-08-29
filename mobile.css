@@ -32,6 +32,7 @@ div#fundo {
 main {
     width: 100vw;    
     top: 130px;
+    padding-bottom: 0px;
 }
 div.imagem { 
     display: none; 
@@ -41,6 +42,7 @@ div.titulo {
     width: 100vw;
     max-width: 768px;
     margin: 15px;
+    margin-left: 30px;
     padding-top: 10px;
     text-align: start;
     font-size: 1.2em;
