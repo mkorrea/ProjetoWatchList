@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/*  header  */
+#logo-ver {
+    display: block;
+}
+#logo-hor {
+    display: none;
+}
+header { 
+    padding: 0px;
+}
+header img {
+    width: 62px;
+}
+
+/*  foto  */
+div.capa {
+    margin-top: 60px;
+    width: 100vw;
+    height: 100%;
+}
+div#fundo { 
+    display: none; 
+}
+/*  main  */
+main {
+    width: 100vw;    
+    top: 130px;
+    padding-bottom: 0px;
+}
+div.imagem { 
+    display: none; 
+}
+
+div.titulo {
+    width: 100vw;
+    max-width: 768px;
+    margin: 15px;
+    margin-left: 30px;
+    padding-top: 10px;
+    text-align: start;
+    font-size: 1.2em;
+  }
+#sinopse {
+    position: relative;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    padding: 10px;
+}  
+
+div.duracao p {
+    position: absolute;
+    top: 65px;
+    right: 25px;
+    display: inline-block;
+    font-size: 1em;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: radial-gradient(#416bd74c, transparent);
+}
+
+div.plataforma { 
+    margin: 70px 20px; 
+}
+
+.menuicon { 
+    width: 140px; 
+}
+
+.icone a:hover .menuicon { 
+    width: 150px; 
+}
+
+.icone p { 
+    font-size: 1em; 
+}
+
+.icone a:hover p { 
+    padding-left: 10px; 
+}
+
+/*  video  */
+.teste {
+    position: static;
+}
+dev#final {
+    width: 50vw;
+}
+div#final > iframe {
+    width: 100%;
+}
