@@ -69,6 +69,9 @@ main {
   padding-bottom: 300px;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 2px #060d1773;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: width .1s, height .1s;
 }
 
 h1 {
